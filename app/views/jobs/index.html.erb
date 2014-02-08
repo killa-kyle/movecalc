@@ -4,6 +4,7 @@
 <table class ="table">
   <thead>
     <tr>
+      <th>Job no.</th>
       <th>Date</th>
       <th>Hours</th>
       <th>Tip</th>
@@ -18,11 +19,11 @@
     <% @jobs.each do |job| %>
     
       <tr>
+        <td><%= job.id %></td>
         <td><%= job.date %></td>
-
         <td><%= job.hours %></td>
         <td><%= job.tip %></td>
-        <td><%= job.hours.to_i * 22 + job.tip.to_i %></td>
+        <td><%= job.hours * 22 + job.tip %></td>
 
         
         <td><%= link_to 'Show', job %></td>
