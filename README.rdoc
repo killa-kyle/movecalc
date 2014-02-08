@@ -8,7 +8,8 @@ The purpose of it is to have a place for me to store the income I receive for ea
 
 -Features I would like to have:
 
-   -track the date, duration, tip, and total money recieved from each job
+   -track the date, duration, tip, and total money recieved from each job.
+   
 
 
 
