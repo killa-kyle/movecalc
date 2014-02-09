@@ -1,3 +1,16 @@
+# == Schema Information
+#
+# Table name: jobs
+#
+#  id         :integer          not null, primary key
+#  date       :date
+#  hours      :float
+#  tip        :float
+#  total      :float
+#  created_at :datetime
+#  updated_at :datetime
+#
+
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
