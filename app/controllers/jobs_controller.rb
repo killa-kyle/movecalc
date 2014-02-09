@@ -5,6 +5,8 @@ class JobsController < ApplicationController
 
 
 
+  def pickdate
+  end
 
   # GET /jobs
   # GET /jobs.json
